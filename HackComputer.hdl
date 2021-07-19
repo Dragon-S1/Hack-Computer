@@ -1,0 +1,16 @@
+/**
+ * Name: Akshat Meena(CS19B052) & Siddharth Singh(CS19B072)
+ * Team no: 24
+ * Chip for : Hack Computer
+**/
+
+CHIP HackComputer {
+
+    IN reset;
+
+    PARTS:
+
+    ROM32K(address=pc, out=instruction);
+    HackCPU(inM=memOut, instruction=instruction, reset=reset, outM=outM, writeM=writeM, addressM=addressM, pc=pc);
+    Memory(in=outM, load=writeM, address=addressM, out=memOut);
+}
