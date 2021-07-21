@@ -1,10 +1,3 @@
-/***********
-* Authors : Akshat Meena(CS19B052) and Siddharth Singh(CS19B072)
-* Team no : 24
-* Chip purpose : Xor of two16-bit numbers
-* Date and Time of Creation : 17 Oct 2020 at 20:14 hrs IST
-***********/
-
 CHIP Xor16{
 	IN a[16], b[16];
 	OUT out[16];
