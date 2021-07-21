@@ -1,9 +1,3 @@
-/**
- * Name: Akshat Meena(CS19B052) & Siddharth Singh(CS19B072)
- * Team no: 24
- * Chip for: Hack CPU
-**/
-
 CHIP HackCPU {
 
     IN  inM[16],         // M value input  (M = contents of RAM[A])
