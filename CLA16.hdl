@@ -1,10 +1,3 @@
-/*********
-* Creators : Siddharth Singh(CS19B072) and Akshat Meena(CS19B052)
-* Team no : 24
-* Circuit : 16-bit Adder/Subtractor using 4-bit CLA based Adders
-* Date and Time of Creation : 13 September 2020 at 22:04 hrs IST
-*********/
-
 /**
  * Adds two 16-bit values using CLA without using higher level propogate and generate terms.
  */
